@@ -15,7 +15,7 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
-org = raw_input("Enter name of the Organization to audit: ")
+org = raw_input("Enter the name of the Organization to audit: ")
 emailUser = raw_input("Enter your Email address: ")
 emailPassword = raw_input("Enter your password: ")
 githubToken = raw_input("Enter your Github personal access token: ")
